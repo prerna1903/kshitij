@@ -21,10 +21,9 @@
      }
      .hero{
       /* The image used */
-      background: linear-gradient(rgba(144,0,85,0.5),rgba(89,50,113,0.5),rgba(39,91,127,0.5)), url("Ksh.jpg") no-repeat center;
+      background: linear-gradient(rgba(144,0,85,0.5),rgba(89,50,113,0.5),rgba(39,91,127,0.5)),url("../images/Ksh.jpeg");
+      position: no-repeat center;
       height: 600px;
-      width: 1200px;
-      position: relative;
 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
@@ -41,7 +40,7 @@
       
      }
      .v1{
-      background: linear-gradient(rgba(91,137,149,0.5),rgba(167,52,94,0.5),rgba(109, 51, 93,0.5)),url("Goonj.jpg");
+      background: linear-gradient(rgba(91,137,149,0.5),rgba(167,52,94,0.5),rgba(109, 51, 93,0.5)),url("../images/Goonj.jpeg");
         
       width: 500px;
       height: 500px;
@@ -57,11 +56,9 @@
         margin-left: 550px;
         margin-right: 50px;
         align-content: center;
-        
-        
         overflow: hidden;
         position: relative;
-        
+        display: grid;
         float: center;
       }
       @import url('https://fonts.googleapis.com/css?family=Cinzel');
@@ -79,11 +76,11 @@
         
         font-family: 'Caveat', bold;
         font-size: 1.8em;
-        position: relative;
         font-weight: 300;
         color: #ccdddf;
         text-align: center;
         text-size-adjust: none;
+        position: relative;
         float: right;
         
       }
@@ -121,7 +118,7 @@
          
         }
         .divb{ 
-          background: linear-gradient(rgba(91,137,149,0.5),rgba(167,52,94,0.5),rgba(109, 51, 93,0.5)),url("Goonj.jpg");
+          background: linear-gradient(rgba(91,137,149,0.5),rgba(167,52,94,0.5),rgba(109, 51, 93,0.5)),url("../images/Goonj.jpeg");
         
       
           background-size: cover;
@@ -169,7 +166,7 @@
       }
 
         .divc{ 
-          background: linear-gradient(rgba(91,137,149,0.5),rgba(167,52,94,0.5),rgba(109, 51, 93,0.5)),url("post2.jpg");
+          background: linear-gradient(rgba(91,137,149,0.5),rgba(167,52,94,0.5),rgba(109, 51, 93,0.5)),url("../images/post2.jpg");
            background-size: cover;
            grid-row: 2/3;
            grid-column: 2/3;
@@ -298,7 +295,7 @@
       }
       
       .v2{
-        background: linear-gradient(rgba(91,137,149,0.7),rgba(167,52,94,0.5),rgba(109, 51, 93,0.7)),url("band1.jpeg");
+        background: linear-gradient(rgba(91,137,149,0.7),rgba(167,52,94,0.5),rgba(109, 51, 93,0.7)),url("../images/band1.jpeg");
           
         width: 600px;
         height: 400px;
